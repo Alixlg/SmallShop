@@ -1,0 +1,6 @@
+<div class="titel">محصولات</div>
+<div class="products">
+  @for (item of products; track $index) {
+  <app-product (onBuy)="buy($event)" [product]="item"></app-product>
+  }
+</div>

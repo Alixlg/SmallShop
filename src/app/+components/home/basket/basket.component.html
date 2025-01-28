@@ -1,0 +1,6 @@
+<div class="titel">سبد خرید</div>
+<div class="basket">
+  @for (item of basketProducts; track $index) {
+  <app-product (onRemove)="remove($event)" [product]="item" [isBasket]="true"></app-product>
+  }
+</div>

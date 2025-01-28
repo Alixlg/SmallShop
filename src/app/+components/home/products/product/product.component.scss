@@ -1,0 +1,40 @@
+:host {
+  display: flex;
+  width: 20%;
+}
+
+.product {
+  direction: rtl;
+  border: 0.1em gray solid;
+  background-color: rgb(222, 222, 222);
+  padding: 0.5em;
+  margin: 0.5em;
+
+  .info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1em;
+
+    .text {
+      flex-flow: column;
+      display: flex;
+      font-size: small;
+    }
+
+    button {
+      border: 0;
+      border-radius: 0.8em;
+      background-color: rgb(203, 203, 203);
+    }
+
+    button:hover{
+      background-color: rgb(180, 180, 180);
+    }
+  }
+
+  .pic {
+    img {
+      width: 100%;
+    }
+  }
+}
