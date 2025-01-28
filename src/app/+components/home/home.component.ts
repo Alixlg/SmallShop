@@ -1,10 +1,11 @@
 import { Component, Input } from '@angular/core';
 import { ProductsComponent } from "./products/products.component";
 import { BasketComponent } from "./basket/basket.component";
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-home',
-  imports: [ProductsComponent, BasketComponent],
+  imports: [ProductsComponent, BasketComponent, RouterLink],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss'
 })
