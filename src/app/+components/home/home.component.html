@@ -13,6 +13,11 @@
     </g>
   </svg>
 </button>
+@if(basketCount != 0){
+<div class="basketCount">
+  {{basketCount}}
+</div>
+}
 
 <button routerLink="/login" class="login">وررد / ثبت نام</button>
 

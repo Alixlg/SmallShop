@@ -9,7 +9,7 @@
           {{product.count}}x
         }
       </span>
-      <span>{{product.price}}</span>
+      <span>{{product.price | number}}</span>
     </div>
     @if (!isBasket) {
     <button (click)="onBuy.emit(product)">

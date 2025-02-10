@@ -1,8 +1,9 @@
+import { DecimalPipe } from '@angular/common';
 import { Component, EventEmitter, Input, Output } from '@angular/core';
 
 @Component({
   selector: 'app-product',
-  imports: [],
+  imports: [DecimalPipe],
   templateUrl: './product.component.html',
   styleUrl: './product.component.scss'
 })

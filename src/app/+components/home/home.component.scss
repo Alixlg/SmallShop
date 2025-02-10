@@ -7,6 +7,19 @@
   background-color: yellow;
 }
 
+.basketCount {
+  position: fixed;
+  text-align: center;
+  color: white;
+  bottom: 0.5em;
+  left: 4.4em;
+  width: 1.2em;
+  height: 1.2em;
+  padding: 0.2em;
+  border-radius: 50%;
+  background-color: rgb(229, 0, 0);
+}
+
 .basket:hover {
   background-color: rgb(179, 179, 179);
 }
